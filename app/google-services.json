@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "393300069873",
+    "project_id": "fastship-ef71d",
+    "storage_bucket": "fastship-ef71d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:393300069873:android:61881cab332b3611e34850",
+        "android_client_info": {
+          "package_name": "com.example.fastship"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "393300069873-vb0rjc2f8nunqojk65g20v10js5p8eps.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDb1F0BCuWOGA-xubb6tn2dlJx3cxnurE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "393300069873-vb0rjc2f8nunqojk65g20v10js5p8eps.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

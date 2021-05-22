@@ -1,0 +1,40 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        app:icon="@drawable/ic_appearance"
+        app:title="@string/messages_header">
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="switch_preference_start"
+            android:title="@string/entry_title" />
+        <SwitchPreference
+            android:defaultValue="true"
+            android:summary=""
+            android:key="switch_preference_anim"
+            android:title="Показывать анимацию"/>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory app:title="@string/sync_header">
+        <SwitchPreference
+            android:key="set_switch"
+            android:title="Использовать готовые данные"
+            android:summary="Использовать данные запрашиваемые во время заказа"/>
+
+        <EditTextPreference
+            android:dialogMessage="Введите номер телефона,который будет использоваться во время заказа"
+            android:dependency="set_switch"
+            android:title="Номер телефона"
+            android:key="set_tel" />
+        <EditTextPreference
+            android:dialogMessage="Введите адрес,на который будет осуществляться доставка"
+            android:dependency="set_switch"
+            android:title="Адрес"
+            android:key="set_address" />
+
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="RoundedCorners">
+        <item name="cornerSizeTopRight">35dp</item>
+        <item name="cornerSizeBottomLeft">35dp</item>
+        <item name="cornerFamilyTopRight">rounded</item>
+        <item name="cornerFamilyBottomLeft">rounded</item>
+    </style>
+
+    <style name="MyRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/custom_rating</item>
+        <item name="minHeight">32dip</item>
+        <item name="maxHeight">32dip</item>
+    </style>
+
+    <style name="CustomRating" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/orange</item>
+        <item name="colorControlActivated">@color/orange</item>
+    </style>
+</resources>

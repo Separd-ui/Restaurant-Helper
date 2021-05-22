@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fil_pizza"
+        android:title="Пиццы"
+        android:icon="@drawable/ic_pizza"/>
+    <item
+        android:icon="@drawable/ic_salad"
+        android:title="Салаты"
+        android:id="@+id/fil_salad"/>
+    <item
+        android:id="@+id/fil_dessert"
+        android:title="Десерты"
+        android:icon="@drawable/ic_dessert"/>
+    <item
+        android:icon="@drawable/ic_hot"
+        android:title="Горячее"
+        android:id="@+id/fil_hot"/>
+    <item
+        android:id="@+id/fil_drinks"
+        android:title="Напитки"
+        android:icon="@drawable/ic_drinks"/>
+</menu>

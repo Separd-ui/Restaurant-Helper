@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">FastShip</string>
+    <string name="sign_up">зарегестрироваться</string>
+    <string name="sign_in">войти</string>
+    <string name="driver">я повар</string>
+    <string name="customer">я заказчик</string>
+    <string name="intro">Здравствуйте, спасибо ,что выбрали сервис FastShip.</string>
+    <string name="who">Вы заказчик или повар?</string>
+    <string name="mail">Введите свою почту</string>
+    <string name="pas">Введите свой пароль</string>
+    <string name="name">Введите своё имя</string>
+    <string name="tel">Введите свой номер телефона</string>
+    <string name="forget">Забыли пароль?</string>
+    <string name="title_activity_driver_map">Map</string>
+    <string name="name_dish">Введите название блюда</string>
+    <string name="time_dish">Время приготовления</string>
+    <string name="price_dish">Цена</string>
+    <string name="desc_dish">Введите описание блюда</string>
+    <string name="payment">Выберите способ оплаты</string>
+    <string name="ed_tel">Введите свой номер телефона</string>
+    <string name="ed_notice">Введите заметки(необязательно)</string>
+    <string name="ed_address">Введите адрес для доставки</string>
+    <string name="spinner">Обновите статус заказа</string>
+    <string name="header_1">Fast delivery</string>
+    <string name="header_2">Unsurpassed quality</string>
+    <string name="header_3">Awesome service</string>
+
+    <string name="username">Введите своё имя</string>
+    <string name="fast_del">Быстрая доставка является одним из самых больших плюсов нашего сервиса,ведь,именно,благодаря этому,вы можете получить ваш заказ ешё горячим.</string>
+    <string name="quality">Мы обеспечим вам наилучшее качество приготовленного блюда,так как в нашем штабе работают одни из лучших поваров Молдовы.</string>
+    <string name="fast_tasty">В соответствии с вышеперечисленным,вы получаете качественный сервис,а мы довольных клиентов.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Внешний вид</string>
+    <string name="entry_title">Показывать стартовое окно</string>
+    <string name="sync_header">Функционал</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+</resources>
